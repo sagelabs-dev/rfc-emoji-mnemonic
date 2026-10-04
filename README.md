@@ -42,3 +42,7 @@ This is a living specification. Issues and PRs welcome. See [CONTRIBUTING.md](CO
 ## License
 
 MIT — see [LICENSE](LICENSE)
+
+---
+
+Crafted with ❤️ by [Sage Labs](https://sagelabs.dev)
