@@ -21,4 +21,4 @@ This is a living specification. Contributions welcome.
 2. If accepted, open a PR against `main` (feature branch discipline not enforced for small edits)
 3. For substantial changes: branch → commit → PR → review → merge
 
-The reference implementation in [passgen](https://github.com/guan-tends/passgen) is authoritative for ambiguities.
+The reference implementation in [passgen](https://github.com/sagelabs-dev/passgen) is authoritative for ambiguities.

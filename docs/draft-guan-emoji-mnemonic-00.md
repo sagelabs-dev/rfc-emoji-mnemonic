@@ -221,7 +221,7 @@ This document makes no requests of IANA. Future versions may register symbol set
 
 Guan
 Email: just.guan@proton.me
-GitHub: https://github.com/guan-tends
+GitHub: https://github.com/sagelabs-dev
 
 With acknowledgment to Freeman King, who posed the challenge that this specification answers.
 
@@ -230,6 +230,6 @@ With acknowledgment to Freeman King, who posed the challenge that this specifica
 ## Appendix A: Reference Implementation
 
 Reference implementation available in TypeScript:
-https://github.com/guan-tends/passgen/blob/main/passgen.js (function generateEmojiPhrase)
+https://github.com/sagelabs-dev/passgen/blob/main/passgen.js (function generateEmojiPhrase)
 
 The reference implementation MUST be considered authoritative for any ambiguity in this specification.
