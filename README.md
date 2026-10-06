@@ -11,7 +11,7 @@ This document follows RFC-style conventions (section numbering, MUST/SHOULD/MAY 
 ## Quick Links
 
 - [Draft 00 Specification](docs/draft-guan-emoji-mnemonic-00.md)
-- [Reference Implementation](https://github.com/sagelabs-dev/passgen) — `generate_emoji_phrase()` in `@guan-tends/passgen`
+- [Reference Implementation](https://github.com/sagelabs-dev/passgen) — `generate_emoji_phrase()` in `@sagelabs/passgen`
 
 ## Authorship
 
