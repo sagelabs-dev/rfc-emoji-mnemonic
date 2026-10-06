@@ -1,0 +1,22 @@
+name: Gitea CI
+# Gitea-native CI. Runner labels: self-hosted,linux,docker.
+# Clones over the internal gitea:3000 hostname (no LAN IP in this file).
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: self-hosted
+    container:
+      image: node:22
+    steps:
+      - name: Checkout
+        run: |
+          git config --global --add safe.directory '*'
+          git clone --depth 1 "http://guan:${{ github.token }}@gitea:3000/guan/rfc-emoji-mnemonic.git" .repo
+      - name: Markdown lint
+        working-directory: .repo
+        run: npx --yes markdownlint-cli2 "README.md" "docs/*.md" "CONTRIBUTING.md"
