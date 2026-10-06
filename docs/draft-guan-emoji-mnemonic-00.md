@@ -1,6 +1,7 @@
 # Deterministic Emoji Mnemonic Encoding (DEME)
 
 ## Guan
+
 Internet-Draft: draft-guan-emoji-mnemonic-00
 Intended status: Informational
 Expires: November 13, 2026
@@ -104,6 +105,7 @@ The DEME encoding function maps a seed and parameters to an ordered sequence of 
     digest = SHA3-512(input)
 
 Where:
+
 - `||` denotes concatenation
 - `\0` is a single null byte (U+0000) acting as domain separator
 
